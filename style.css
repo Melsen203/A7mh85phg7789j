@@ -17,7 +17,6 @@ body {
     height: 80px;
     width: 100%;
     box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
 }
 
 .nav ul {
@@ -40,7 +39,6 @@ body {
     color: #edf0f1;
     transition: all 0.3s ease 0s;
     padding: 15px;
-    
 }
 
 button {
@@ -78,5 +76,11 @@ button:hover {
 @media only screen and (max-width: 600px) {
     .nav ul li a {
         padding: 5px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .nav button {
+        padding: 9px 6px;
     }
 }
