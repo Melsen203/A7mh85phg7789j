@@ -1,0 +1,57 @@
+@import url('https://fonts.googleapis.com/css2?family=Overlock+SC&display=swap');
+
+* {
+    padding: 0;
+    margin: 0;
+    text-decoration: none;
+    box-sizing: border-box;
+    font-family: 'Overlock SC', sans-serif;
+    color: white;
+}
+
+.container {
+    width: 60%;
+    height: 450px;
+    background-color: #24252a;
+    margin: 50px auto;
+    border-radius: 10px;
+    display: flex;
+    justify-content: space-between;
+    justify-items: center;
+}
+
+.container .item {
+    width: 420px;
+    height: 270px;
+    background-color: #24252a;
+    display: flex;
+    border-radius: 10px;
+    border: 1px solid #263c5a;
+    margin: 20px;
+    margin-top: 80px;
+    transition: all 0.3s ease 0s;
+}
+
+.item:hover {
+    border: 1px solid orange;
+}
+
+.info {
+    padding: 5px;
+    margin-left: 20px;
+    margin-top: 40px;
+    font-size: 20px;
+}
+
+.container img {
+    height: 220px;
+    width: 160px;
+    margin-left: 20px;
+    margin-top: 25px;
+    border-radius: 10px;
+    display: flex;
+}
+
+.container img:hover {
+    padding: 1px;
+}
