@@ -5,6 +5,7 @@
     text-decoration: none;
     list-style: none;
     font-family: 'Overlock SC', sans-serif;
+    color: white;
 }
 
 body {
@@ -50,6 +51,11 @@ button {
     cursor: pointer;
     transition: all 0.3s ease 0s;
     font-size: 16px;
+}
+
+ .active {
+    background-color: gray;
+    border-radius: 10px;
 }
 
 button:hover {
