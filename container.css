@@ -18,9 +18,10 @@
     display: flex;
     justify-content: space-between;
     justify-items: center;
+    flex-wrap: wrap;
 }
 
-.container .item {
+.item {
     width: 420px;
     height: 270px;
     background-color: #24252a;
@@ -30,6 +31,7 @@
     margin: 20px;
     margin-top: 80px;
     transition: all 0.3s ease 0s;
+    flex-wrap: wrap;
 }
 
 .item:hover {
@@ -55,3 +57,11 @@
 .container img:hover {
     padding: 1px;
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        width: 95%;
+        height: 750px;
+    }
+}
+
