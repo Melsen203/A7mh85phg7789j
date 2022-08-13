@@ -31,7 +31,6 @@
     margin: 20px;
     margin-top: 80px;
     transition: all 0.3s ease 0s;
-    flex-wrap: wrap;
 }
 
 .item:hover {
@@ -64,4 +63,11 @@
         height: 750px;
     }
 }
+
+@media only screen and (max-width: 600px) {
+    .container {
+        flex-wrap: wrap;
+    }
+}
+
 
