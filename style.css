@@ -101,7 +101,7 @@ button:hover {
 
 @media only screen and (max-width: 600px) {
     .notice-box  {
-        height: 95px;
+        height: 110px;
     }
 }
 
