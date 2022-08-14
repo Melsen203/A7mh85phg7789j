@@ -13,7 +13,6 @@
     background-color: #24252a;
     height: 50px;
     width: 100%;
-    box-shadow: 5px 5px 15px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
     position: sticky;
     position: -webkit-sticky;
     top: 0;
@@ -58,7 +57,7 @@ body {
     text-align: center;
     font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
     padding-top: 20px;
-    margin-top: 50px;
+    margin-top: 2px;
     background-color: #24252a;
     width: 100%;
     height: 120px;
