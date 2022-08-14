@@ -92,7 +92,6 @@
 
 @media only screen and (max-width: 750px) {
     .name-container {
-        flex-basis: 100%;
         margin-top: 0px;
         width: 95%;
     }
