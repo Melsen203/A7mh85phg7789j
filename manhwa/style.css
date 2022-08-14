@@ -71,7 +71,9 @@ body {
     display: inline;
     border-radius: 0px 10px 10px 0px;
     box-shadow: 5px 5px 12px 4px rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
-
+    position: sticky;
+    position: -webkit-sticky;
+    top: 0;
  }
 
  .menu-items, h3, a {
@@ -96,7 +98,7 @@ body {
 .content img {
     width: 25%;
     margin-top: 80px;
-    border: 2px solid gray;
+    border: 2px solid rgb(134, 122, 122);
     border-radius: 20px;
  }
 
@@ -106,7 +108,7 @@ body {
     background-color: #24252a;
     display: inline-block;
     width: 80%;
-    border: 1px solid silver;
+    border: 1px solid rgb(134, 122, 122);
     border-radius: 10px;
     padding: 20px;
     font-size: 16px;
@@ -149,10 +151,9 @@ h2 {
 .chapter-name {
     display: flex;
     justify-content: center;
-    width: 80%;
     margin: 10px auto;
-    flex-wrap: wrap;
-    justify-items: center;
+    
+    
 }
 
  .chapter-box {
