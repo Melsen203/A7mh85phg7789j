@@ -84,3 +84,32 @@ button:hover {
         padding: 9px 6px;
     }
 }
+
+.notice-box {
+    width: 100%;
+    height: 60px;
+    background-color: rgba(0,136,169,1);
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+}
+
+.notice {
+    text-align: center;
+    width: 40%;
+}
+
+@media only screen and (max-width: 600px) {
+    .notice-box  {
+        height: 95px;
+    }
+}
+
+@media only screen and (max-width: 600px) {
+    .notice  {
+        width: 95%;
+    }
+}
+
+
+
