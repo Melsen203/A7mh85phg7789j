@@ -123,7 +123,7 @@ span {
 
 span:hover {
     background-color: #263c5a;
-    transition: all 0.3s ease 0s;
+    transition: all 0.1s ease 0s;
     cursor: pointer;
  }
 
