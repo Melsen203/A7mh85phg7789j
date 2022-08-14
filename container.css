@@ -53,10 +53,13 @@
     margin-top: 20px;
     border-radius: 10px;
     display: flex;
+    transition: all 0.2s ease 0s;
 }
 
 .container img:hover {
-    padding: 1px;
+    width: 103px;
+    height: 143px;
+    transition: all 0.1s ease 0s;
 }
 
 @media only screen and (max-width: 600px) {
