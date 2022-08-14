@@ -87,7 +87,6 @@ button:hover {
 
 .notice-box {
     max-width: 100%;
-    
     background-color: rgba(0,136,169,1);
     display: flex;
     justify-content: center;
