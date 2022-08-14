@@ -28,7 +28,6 @@
 .nav ul li a:hover {
     background-color: rgb(11, 85, 245);
 }
-
 .nav ul li {
     display: inline-block;
     line-height: 50px;
@@ -40,13 +39,14 @@
     background-color: rgb(41, 138, 228);
     border-radius: 5px;
     padding: 10px;
+    font-size: 17px;
 }
 
 .nav img {
     position: relative;
     margin-top: 8px;
     float: left;
-    margin-left: 20px;
+    margin-left: 10px;
 }
 
 
@@ -91,5 +91,19 @@ body {
  @media only screen and (max-width: 300px) {
     .container img {
         width: 100%;
+    }
+ }
+
+ @media only screen and (max-width: 280px) {
+    .nav ul li a {
+        padding: 2px;
+        font-size: 9px;
+    }
+ }
+
+ @media only screen and (max-width: 400px) {
+    .nav ul li a {
+        padding: 10px;
+        font-size: 13px;
     }
  }
