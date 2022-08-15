@@ -114,6 +114,29 @@ body {
     color: white;
  }
 
+ .read-buttons {
+    color: white;
+ }
+
+ .read-buttons span {
+    background-color: rgb(41, 138, 228);
+    padding: 10px;
+ }
+
+ .read-buttons span:hover {
+    background-color: rgb(38, 93, 212);
+ }
+
+ .read-buttons a {
+    padding: 0px;
+ }
+
+ @media only screen and (max-width: 600px) {
+    .read-buttons {
+        text-align: center;
+    }
+}
+
 span {
     background-color: rgba(0,136,169,1);
     padding: 2px;

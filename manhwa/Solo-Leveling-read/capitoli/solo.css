@@ -20,7 +20,6 @@
 }
 
 .nav ul {
-    margin-right: 20px;
     font-size: 17px;
 }
 
@@ -48,6 +47,10 @@
     margin-left: 2px;
 }
 
+.home {
+    position: absolute;
+    float: left;
+}
 
 body {
     background-color:#263c5a;
