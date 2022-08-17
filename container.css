@@ -13,11 +13,12 @@
     max-width: 60%;
     background-color: #24252a;
     margin: 2px auto;
-    border-radius: 0 0 10px 10px;
+    border-radius: 0 0 5px 5px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .item {
@@ -31,7 +32,7 @@
     margin: 10px;
     margin-top: 10px;
     transition: all 0.2s ease 0s;
-    flex-basis: 30%;
+    flex-basis: 100%;
     position: relative;
 }
 
@@ -93,19 +94,21 @@ span:hover {
 }
 
 .name-container {
-    height: 60px;
+    height: 40px;
     width: 60%;
     display: flex;
     background-color: #24252a;
     margin: 0 auto;
     color: rgba(0,136,169,1);
-    border-radius: 10px 10px 0 0;
-    justify-content: center;
+    border-radius: 5px 5px 0 0;
+    justify-content: flex-start;
+    font-size: 14px;
 }
 
 .name-container h2 {
     color: rgba(0,136,169,1);
-    padding: 15px;
+    padding: 5px;
+    margin-left: 10px;
 }
 
 @media only screen and (max-width: 1300px) {
