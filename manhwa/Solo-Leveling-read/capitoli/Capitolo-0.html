@@ -4,46 +4,106 @@
         <title>Solo Leveling - Capitolo 0</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="solo.css" rel="stylesheet">
-        <link href="dropdown.css" rel="stylesheet">
-        <link rel="shortcut icon" type="image" href="/Images/logo-us-site-only.png">
+        <link href="styles.css" rel="stylesheet">
+        <link rel="stylesheet" href="scroll-button.css">
+        <link rel="shortcut icon" type="image" href="/manhwa/Solo-Leveling-read/capitoli/Images-tool/logo-us-site-only.png">
+        <script src="scroll-button.js"></script>
+        <meta name="description" content="">
+        <meta name="keywords" content="Solo Leveling, Solo Leveling read ita, Leggi Solo leveling italiano, solo leveling ita, Manhwa, Capitolo 0, Solo Leveling Capitolo 0">
     </head>
     <body>
-        <div class="nav">
-            <ul> <div class="home"><li><a href="https://unlimitedscans.it">Home</a></li></div>
-                <li><a href="https://unlimitedscans.it/manhwa/Solo-Leveling-read/solo-leveling">↤</a></li>
-                <div class="dropdown">
-                    <button type="submit" class="dropbtn">
-                        | Capitolo O |
-                    </button>
-                    <div class="dropitems">
-                        <a href="/manhwa/Solo-Leveling-read/capitoli/Capitolo-1.html">Capitolo 1</a>
-                    </div>
-                </div>
-                <li><a href="/manhwa/Solo-Leveling-read/capitoli/Capitolo-1.html">↦</a></li>
+
+        <img src="/manhwa/Solo-Leveling-read/capitoli/Images-tool/up-button1.png" id="backtop" onclick="totop()"/>
+
+        <!--Nav Bar-->
+
+        <div id="nav">
+            <ul> 
+                <li><a href="/manhwa/Solo-Leveling-read/solo-leveling">⮜ Precedente</a></li>
+
+                <select name="links" id="chapters" size="1" onchange="window.location.href=this.value";>
+                    <option value="Link">Capitolo 0</option>
+                    <option value="Link">Capitolo 1</option>
+                </select>
+
+                <li><a href="/manhwa/Solo-Leveling-read/capitoli/Capitolo-1">Successivo ⮞</a></li>
             </ul>
         </div>
 
+        <!--Finish-->
+
+
+        <!--Menu items-->
+        <br>
+        <div class="menu-items">
+            <a href="https://unlimitedscans.it/">Home</a> /
+            <a href="/Generi/Manhwa">Manhwa</a> /
+            <a href="/manhwa/Solo-Leveling-read/solo-leveling">Solo Leveling</a> /
+            <h3 style="color: white;">Capitolo 0</h3>
+        </div>
+
+        <!--Finish-->
+
+
+        <!--Container-->
         <div class="container">
-            <img src="/manhwa/Solo-Leveling-read/capitoli/Images/Copertina.png" class="copertina">
-            <img src="/manhwa/Solo-Leveling-read/capitoli/Images/1.jpg">
-            <img src="/manhwa/Solo-Leveling-read/capitoli/Images/2.jpg cap 0.jpg">
-            <img src="/manhwa/Solo-Leveling-read/capitoli/Images/3.jpg cap 0.jpg">
-            <img src="/manhwa/Solo-Leveling-read/capitoli/Images/4.jpg cap 0.jpg">
-            <img src="/manhwa/Solo-Leveling-read/capitoli/Images/5.jpg cap 0.jpg">
-            <img src="/manhwa/Solo-Leveling-read/capitoli/Images/6.jpg cap 0.jpg">
-            <img src="/manhwa/Solo-Leveling-read/capitoli/Images/7.jpg cap 0.jpg">
-            <img src="/manhwa/Solo-Leveling-read/capitoli/Images/8.jpg cap 0.jpg">
+            <img src="/manhwa/Solo-Leveling-read/capitoli/Images-tool/Copertina.png" class="copertina">
+            <img src="/manhwa/Solo-Leveling-read/capitoli/images-cap0/1.jpg cap 0.jpg">
+            <img src="/manhwa/Solo-Leveling-read/capitoli/images-cap0/2.jpg cap 0.jpg">
+            <img src="/manhwa/Solo-Leveling-read/capitoli/images-cap0/3.jpg cap 0.jpg">
+            <img src="/manhwa/Solo-Leveling-read/capitoli/images-cap0/4.jpg cap 0.jpg">
+            <img src="/manhwa/Solo-Leveling-read/capitoli/images-cap0/5.jpg cap 0.jpg">
+            <img src="/manhwa/Solo-Leveling-read/capitoli/images-cap0/6.jpg cap 0.jpg">
+            <img src="/manhwa/Solo-Leveling-read/capitoli/images-cap0/7.jpg cap 0.jpg">
+            <img src="/manhwa/Solo-Leveling-read/capitoli/images-cap0/8.jpg cap 0.jpg">
         </div>
 
-        <div class="nav">
+
+        <!--Finish-->
+
+        <div id="nav">
             <ul>
-                <li><a href="/manhwa/Solo-Leveling-read/capitoli/Capitolo-1.html">Capitolo Successivo</a></li>
+                <li><a href="#">Capitolo Successivo</a></li>
             </ul>
         </div>
 
+
+        <div class="footer1">
+            <div class="footer-content">
+             <h4>SEGUICI SU:</h4>
+             <a href="#">
+             <img src="/manhwa/Solo-Leveling-read/capitoli/Images-tool/discord.png">
+             </a>
+             <a href="https://www.instagram.com/unlimitedscans/?hl=it/" target="_blank">
+             <img src="/manhwa/Solo-Leveling-read/capitoli/Images-tool/instagram.png">
+             </a>
+             <a href="https://t.me/unlimitedscans" target="_blank">
+             <img src="/manhwa/Solo-Leveling-read/capitoli/Images-tool/telegram.png">
+             </a>
+             <a href="https://www.tiktok.com/@unlimitedscans?lang=it-IT" target="_blank">
+             <img src="/manhwa/Solo-Leveling-read/capitoli/Images-tool/tiktok.png">
+             </a>
+            </div>
+        </div>
+        <hr>
         <footer>
             <h4>© 2022 Unlimited Scans. Tutti i diritti riservati.</h4>
+            <br>
+            <p>Info Abusi/Contantti: info.unlimitedscans@gmail.com</p>
         </footer>
+
+        <script>
+            var prevScrollpos = window.pageYOffset;
+            window.onscroll = function() {
+            var currentScrollPos = window.pageYOffset;
+              if (prevScrollpos > currentScrollPos) {
+                document.getElementById("nav").style.top = "0";
+              } else {
+                document.getElementById("nav").style.top = "-50px";
+              }
+              prevScrollpos = currentScrollPos;
+            }
+            </script>
+    
     </body>
 </html>
