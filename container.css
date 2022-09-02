@@ -13,12 +13,13 @@
     max-width: 60%;
     background-color: #24252a;
     margin: 2px auto;
-    border-radius: 0 0 5px 5px;
+    border-radius: 0 0 3px 3px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
-    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+    -webkit-box-shadow: 0px 1px 9px 2px #015794; 
+    box-shadow: 0px 1px 9px 2px #015794;
 }
 
 .item {
@@ -100,9 +101,11 @@ span:hover {
     background-color: #24252a;
     margin: 0 auto;
     color: rgba(0,136,169,1);
-    border-radius: 5px 5px 0 0;
+    border-radius: 3px 3px 0 0;
     justify-content: flex-start;
     font-size: 14px;
+    -webkit-box-shadow: 0px 1px 9px 2px #015794; 
+box-shadow: 0px 1px 9px 2px #015794;
 }
 
 .name-container h2 {
