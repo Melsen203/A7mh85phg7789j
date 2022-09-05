@@ -10,20 +10,20 @@ header a {
     min-height: 60px;
     display: flex;
     align-items: center;
-    padding: 0 24px;
-    justify-content: left;
-    justify-items: left;
+    justify-content: right;
+    justify-items: right;
 }
 
 
 .navbar img {
-    width: 60%;
-    
+    width: 90%;
+    margin-left: 25px;
 }
 
 .nav-menu {
     display: flex;
-    align-items: center;
+    justify-content: center;
+    flex-basis: 50%;
 }
 
 .nav-menu button {
@@ -36,10 +36,6 @@ header a {
     cursor: pointer;
     background-color: rgb(80, 121, 209);
     margin-right: 5px;
-}
-
-.right {
-    display: flex;
 }
 
 .hamburger {
@@ -69,6 +65,11 @@ header a {
     height: 60px;
     display: none;
     transition: all 5s ease 1s;
+}
+
+.logo {
+    position: absolute;
+    left: 0%;
 }
 
 .hidden-menu.active {
