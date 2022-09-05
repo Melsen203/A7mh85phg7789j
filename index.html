@@ -4,18 +4,42 @@
         <title>Unlimited Scans</title>
         <meta charset="UTF-8">
         <meta name="viewport" content="width=device-width, initial-scale=1">
-        <link href="style.css" rel="stylesheet">
+        <link href="css/style.css" rel="stylesheet">
         <link rel="shortcut icon" type="image" href="Images/logo-us-site-only.png">
+        <link href="css/container.css" rel="stylesheet">
+        <link rel="stylesheet" href="css/sidebar.css">
+        <link rel="stylesheet" href="nav.css">
+        <script src="js/nav.js"></script>
     </head>
     <body style="background-color:#263c5a;">
 
-        <div class="nav">
-            <ul>
-                <a href="#">
-                    <img src="Images/temp-2.png" style="height: 60px;">
-                </a>
-            </ul>
-        </div>
+        <header>
+            <nav class="navbar">
+                <a href="#" class="nav-branding"><img src="Images/temp-4.png"></a>
+
+                <ul class="nav-menu">
+                    <div class="search">
+                        <input type="text" placeholder="Cosa cerchi, Senpai?">
+                    </div>
+                </ul>
+
+                <div class="hamburger">
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                    <span class="bar"></span>
+                </div>
+
+            </nav>
+            <div class="hidden-menu">
+                <div class="content-menu">
+                    <button>Registrati</button>
+                    <button>Accedi</button>   
+                    <div class="search-bar">
+                        <input type="text" placeholder="Cosa cerchi, Senpai?">
+                    </div>             
+                </div>
+            </div>
+        </header>
 
         <div class="notice-box">
             <div class="notice">
@@ -26,11 +50,13 @@
         </div>
 
     <br>
-         <link href="container.css" rel="stylesheet">
-         <div class="name-container">
-            <h2>Ultimi capitoli aggiunti</h2>
-         </div>
+
+    <main>
         <div class="container">
+            <div class="name-container">
+                <h2>Ultimi capitoli aggiunti</h2>
+                <hr>
+             </div>
             
             <div class="item">
                 <a href="/manhwa/Solo-Leveling-read/solo-leveling">
@@ -168,6 +194,27 @@
                 </div>
             </div>
         </div>
+        <div class="side-bars">
+            <div class="side-bar">
+                <div class="name-container">
+                    <h2>Top del Mese</h2>
+                    <hr>
+                </div>
+                <div class="content-side">
+
+                </div>
+            </div>    
+            <div class="side-bar">
+                <div class="name-container">
+                    <h2>Ultime Aggiunte</h2>
+                    <hr>
+                </div>
+                <div class="content-side">
+
+                </div>
+            </div>  
+        </div>
+    </main>  
         
         <div class="footer1">
             <div class="footer-content">

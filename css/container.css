@@ -10,16 +10,14 @@
 }
 
 .container {
-    max-width: 60%;
+    max-width: 37%;
     background-color: #24252a;
-    margin: 2px auto;
-    border-radius: 0 0 3px 3px;
+    border-radius: 3px 3px 3px 3px;
     display: flex;
+    margin-top: 5px;
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
-    -webkit-box-shadow: 0px 1px 9px 2px #015794; 
-    box-shadow: 0px 1px 9px 2px #015794;
 }
 
 .item {
@@ -30,7 +28,7 @@
     display: flex;
     border-radius: 5px;
     border: 1px solid #263c5a;
-    margin: 10px;
+    margin: 5px;
     margin-top: 10px;
     transition: all 0.2s ease 0s;
     flex-basis: 100%;
@@ -49,7 +47,7 @@
 }
 
 span {
-    color: rgb(240, 242, 243);
+    color: white;
     font-size: 15px;
 }
 
@@ -76,7 +74,7 @@ span:hover {
 
 @media only screen and (max-width: 1300px) {
     .container {
-        max-width: 95%;
+        max-width: 100%;
         flex-wrap: wrap;
     }
 }
@@ -88,15 +86,16 @@ span:hover {
     }
 }
 
-@media only screen and (max-width: 700px) {
+@media only screen and (max-width: 768px) {
     .item {
         max-width: 100%;
     }
 }
 
+
 .name-container {
     height: 40px;
-    width: 60%;
+    width: 100%;
     display: flex;
     background-color: #24252a;
     margin: 0 auto;
@@ -104,8 +103,7 @@ span:hover {
     border-radius: 3px 3px 0 0;
     justify-content: flex-start;
     font-size: 14px;
-    -webkit-box-shadow: 0px 1px 9px 2px #015794; 
-box-shadow: 0px 1px 9px 2px #015794;
+    flex-direction: column;
 }
 
 .name-container h2 {
@@ -114,17 +112,8 @@ box-shadow: 0px 1px 9px 2px #015794;
     margin-left: 10px;
 }
 
-@media only screen and (max-width: 1300px) {
-    .name-container {
-        margin-top: 0px;
-        width: 95%;
-    }
-}
-
-@media only screen and (max-width: 300px) {
-    .name-container {
-        font-size: 14px;
-    }
+hr {
+    border: 1px solid #263c5a;
 }
 
 
