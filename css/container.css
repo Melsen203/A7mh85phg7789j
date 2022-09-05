@@ -11,7 +11,7 @@
 
 .container {
     min-width: none;
-    max-width: 60%;
+    max-width: 50%;
     background-color: #24252a;
     border-radius: 3px 3px 3px 3px;
     display: flex;
@@ -22,9 +22,9 @@
 }
 
 .item {
-    max-width: 500px;
-    min-width: 500px;
-    min-height: 255px;
+    max-width: 420px;
+    min-width: 200px;
+    min-height: 245px;
     background-color: #24252a;
     display: flex;
     border-radius: 3px;
@@ -72,8 +72,8 @@ span:hover {
 }
 
 .container img {
-    height: 230px;
-    width: 180px;
+    height: 220px;
+    width: 165px;
     margin-left: 12px;
     margin-top: 12px;
     border-radius: 5px;
