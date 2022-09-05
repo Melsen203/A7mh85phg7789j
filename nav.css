@@ -11,33 +11,35 @@ header a {
     display: flex;
     align-items: center;
     padding: 0 24px;
-    justify-content: space-between;
+    justify-content: left;
+    justify-items: left;
 }
 
+
 .navbar img {
-    width: 70%;
+    width: 60%;
+    
 }
 
 .nav-menu {
     display: flex;
-    justify-content: space-between;
     align-items: center;
-    gap: 60px;
-    justify-items: center;
 }
 
-.nav-branding {
-    font-size: 25px;
-    font-weight: bold;
-    letter-spacing: 1px;
+.nav-menu button {
+    width: 100px;
+    height: 35px;
+    font-size: 15px;
+    border: none;
+    border-radius: 3px;
+    color: white;
+    cursor: pointer;
+    background-color: rgb(80, 121, 209);
+    margin-right: 5px;
 }
 
-.nav-link {
-    transition: 0.7s ease;
-}
-
-.nav-link:hover{
-    color: aqua;
+.right {
+    display: flex;
 }
 
 .hamburger {
@@ -81,19 +83,20 @@ header a {
 
 .search-bar input {
     background-color: rgb(24, 26, 26);
-    width: 200px;
+    width: 205px;
     padding: 10px;
     color: white;
     border: none;
     border-radius: 5px;
     display: flex;
+    margin-top: 10px;
     flex-wrap: wrap;
     border: 1px solid rgb(65, 62, 62);
 }
 
 .search input {
     background-color: rgb(24, 26, 26);
-    width: 200px;
+    width: 250px;
     padding: 10px;
     color: white;
     border: none;
@@ -101,6 +104,7 @@ header a {
     display: flex;
     flex-wrap: wrap;
     border: 1px solid rgb(65, 62, 62);
+    margin-right: 10px;
 }
 
 .content-menu {
@@ -113,20 +117,16 @@ header a {
     max-height: 70px;
 }
 
-.content-menu button {
-    margin-right: 5px;
-}
-
 .hidden-menu button {
     width: 100px;
     height: 35px;
-    font-size: 13px;
+    font-size: 15px;
     border: none;
     border-radius: 3px;
     color: white;
     cursor: pointer;
-    justify-content: space-between;
     background-color: rgb(80, 121, 209);
+    margin-right: 5px;
 }
 
 @media(min-width:769px) {
