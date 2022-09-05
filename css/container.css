@@ -10,7 +10,8 @@
 }
 
 .container {
-    max-width: 37%;
+    min-width: none;
+    max-width: 60%;
     background-color: #24252a;
     border-radius: 3px 3px 3px 3px;
     display: flex;
@@ -21,9 +22,9 @@
 }
 
 .item {
-    max-width: 340px;
-    min-width: 300px;
-    min-height: 175px;
+    max-width: 500px;
+    min-width: 500px;
+    min-height: 255px;
     background-color: #24252a;
     display: flex;
     border-radius: 3px;
@@ -71,8 +72,8 @@ span:hover {
 }
 
 .container img {
-    height: 150px;
-    width: 110px;
+    height: 230px;
+    width: 180px;
     margin-left: 12px;
     margin-top: 12px;
     border-radius: 5px;
@@ -103,8 +104,10 @@ span:hover {
 @media only screen and (max-width: 768px) {
     .item {
         max-width: 100%;
+        min-width: 300px;
     }
 }
+
 
 
 .name-container {
