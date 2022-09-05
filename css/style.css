@@ -88,6 +88,11 @@ button:hover {
     padding: 15px;
 }
 
+.material-symbols-outlined {
+    color: rgba(0,136,169,1);
+    cursor: default;
+}
+
 main {
     display: flex;
     justify-content: center;
