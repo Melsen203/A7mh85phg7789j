@@ -23,10 +23,10 @@
 .item {
     max-width: 340px;
     min-width: 300px;
-    min-height: 180px;
+    min-height: 175px;
     background-color: #24252a;
     display: flex;
-    border-radius: 5px;
+    border-radius: 3px;
     border: 1px solid #263c5a;
     margin: 5px;
     margin-top: 10px;
@@ -60,9 +60,10 @@ span:hover {
     color: rgb(255, 255, 255);
     background-color: rgb(196, 67, 67);
     border-radius: 3px;
-    font-size: 11px;
-    padding: 1px;
+    font-size: 10px;
+    padding: 2px;
     margin-left: 5px;
+    font-weight: bold;
 }
 
 .new:hover {
@@ -72,8 +73,8 @@ span:hover {
 .container img {
     height: 150px;
     width: 110px;
-    margin-left: 20px;
-    margin-top: 20px;
+    margin-left: 12px;
+    margin-top: 12px;
     border-radius: 5px;
     display: flex;
     transition: all 0.2s ease 0s;
