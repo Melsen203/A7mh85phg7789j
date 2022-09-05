@@ -53,9 +53,9 @@ header a {
     display: block;
     width: 25px;
     height: 2px;
-    margin: 5px auto;
+    margin: 6px auto;
     -webkit-transition: all 0.3s ease-in-out;
-    transition: all 0.3s ease-in-out;
+    transition: all 0.4s ease-in-out;
     background-color: rgb(175, 160, 160);
 }
 
