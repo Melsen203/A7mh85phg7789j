@@ -42,7 +42,7 @@
 .info {
     padding: 5px;
     margin-left: 0px;
-    margin-top: 15px;
+    margin-top: 5px;
     font-size: 15px;
 }
 
@@ -129,7 +129,6 @@ span:hover {
 hr {
     border: 1px solid #263c5a;
 }
-
 
 
 
