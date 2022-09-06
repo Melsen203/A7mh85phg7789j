@@ -67,6 +67,12 @@ span:hover {
     font-weight: bold;
 }
 
+.old {
+    color: rgb(143, 143, 143);
+    float: right;
+    font-size: 16px;
+}
+
 .new:hover {
     color: rgb(255, 255, 255);
 }
