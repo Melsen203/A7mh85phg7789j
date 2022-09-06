@@ -37,6 +37,10 @@ header a {
     margin-right: 5px;
 }
 
+.nav-menu button:hover {
+    background-color: rgb(53, 83, 148);
+}
+
 .hamburger {
     display: none;
     cursor: pointer;
