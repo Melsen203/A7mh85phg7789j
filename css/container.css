@@ -28,7 +28,7 @@
     background-color: #24252a;
     display: flex;
     border-radius: 3px;
-    border: 1px solid #263c5a;
+    border: 1px solid rgb(51, 74, 122);
     margin: 5px;
     margin-top: 10px;
     transition: all 0.2s ease 0s;
@@ -60,9 +60,9 @@ span:hover {
 .new {
     color: rgb(255, 255, 255);
     background-color: rgb(196, 67, 67);
-    border-radius: 3px;
+    border-radius: 1px;
     font-size: 10px;
-    padding: 2px;
+    padding: 2px 5px;
     margin-left: 5px;
     font-weight: bold;
 }
@@ -79,6 +79,7 @@ span:hover {
 
 .new:hover {
     color: rgb(255, 255, 255);
+    background-color: rgb(148, 48, 48);
 }
 
 .container img {
@@ -126,7 +127,7 @@ span:hover {
     display: flex;
     background-color: #24252a;
     margin: 0 auto;
-    color: rgba(0,136,169,1);
+    color: rgb(68, 131, 194);
     border-radius: 3px 3px 0 0;
     justify-content: flex-start;
     font-size: 14px;
@@ -134,13 +135,13 @@ span:hover {
 }
 
 .name-container h2 {
-    color: rgba(0,136,169,1);
+    color: rgb(68, 131, 194);
     padding: 5px;
     margin-left: 5px;
 }
 
 hr {
-    border: 1px solid #263c5a;
+    border: 1px solid rgb(68, 131, 194);
 }
 
 
