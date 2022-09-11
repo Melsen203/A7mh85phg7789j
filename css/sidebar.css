@@ -77,7 +77,6 @@
 }
 
 .content-side-wrap {
-    
     width: 100%;
     padding: 10px;
     display: flex;
@@ -86,7 +85,6 @@
 
 .item-wrap {
     width: 100%;
-    height: 50%;
     margin-top: 10px;
     border: 1px solid rgb(51, 74, 122);
     border-radius: 0 10px 0 10px;
