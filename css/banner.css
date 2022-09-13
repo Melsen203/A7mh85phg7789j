@@ -1,5 +1,5 @@
 .banner {
-    width: 60%;
+    width: 40%;
     border: 1px solid rgb(51, 74, 122);
     margin-top: 5px;
     margin: 0 auto;
@@ -23,11 +23,7 @@
 
 .logo-banner p {
     margin-left: 5px;
-    font-size: 17px;
-}
-
-.logo-banner p:hover {
-    color: rgb(80, 121, 209);
+    font-size: 15px;
 }
 
 .banner img {
@@ -41,14 +37,16 @@
     align-items: center;
 }
 
-.link p {
+.link a button {
     background-color: rgb(80, 121, 209);
     padding: 7px;
-    border-radius: 5px;
+    border-radius: 3px;
+    border: none;
 }
 
-.link p:hover {
+.link a button:hover {
     background-color: rgb(53, 83, 148);
+    color: white;
 }
 
 @media only screen and (max-width: 1300px) {
