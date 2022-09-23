@@ -11,6 +11,15 @@
     color: #6e94d1;
 }
 
+.warning-content a {
+    font-weight: bold;
+    color: rgb(80, 121, 209);
+}
+
+.warning-content a:hover {
+    text-decoration: underline;
+}
+
 @media only screen and (max-width: 1300px) {
     .warning-content {
         max-width: 95%;
