@@ -2,7 +2,7 @@
     max-width: 45%;
     background-color: #2c333e;
     border-radius: 10px;
-    margin: 10px auto;
+    margin: 0px auto;
 }
 
 .warning-content p {
@@ -12,7 +12,6 @@
 }
 
 .warning-content a {
-    font-weight: bold;
     color: rgb(80, 121, 209);
 }
 
