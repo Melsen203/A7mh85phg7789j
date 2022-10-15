@@ -1,14 +1,13 @@
 .menu-box {
     margin: 0 auto;
     width: 100%;
-    background-color: #24252a;
     display: flex;
     padding: 10px;
     align-items: center;
 }
 
 .menu-box a {
-    color: rgb(80, 121, 209);
+    color: rgb(64, 159, 255);
     margin-left: 0px;
 }
 

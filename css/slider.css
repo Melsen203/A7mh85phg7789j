@@ -1,0 +1,145 @@
+/* Google Fonts - Poppins */
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600&display=swap');
+
+#container {
+  margin: 0 auto;
+  width: 70%;
+  padding: 0px;
+  border-radius: 10px;
+  margin-top: 20px;
+}
+
+@media only screen and (max-width: 1300px) {
+  #container {
+      width: 95%;
+  }
+}
+
+.conteiner-img {
+  width: 100%;
+  overflow: hidden;
+  height: 100%;
+  border-radius: 5px;
+}
+
+.not {
+  bottom: 0;
+  display: flex;
+  text-align: center;
+  position: absolute;
+  justify-content: center;
+  padding: 10px;
+  border-radius: 0 0 5px 5px;
+  background-color: #0000008e;
+  width: 100%;
+}
+
+.slide-container {
+  width: 100%;
+}
+
+@media only screen and (max-width: 1300px) {
+  .slide-container {
+      width: 85%;
+      margin-top: 10px;
+  }
+}
+
+.slide-content{
+  margin: 20px 50px;
+  overflow: hidden;
+  min-height: 325px;
+}
+.overlay{
+  position: absolute;
+  left: 0;
+  top: 0;
+  height: 100%;
+  width: 100%;
+}
+.overlay::before,
+.overlay::after{
+  content: '';
+  position: absolute;
+  right: 0;
+  bottom: -40px;
+  height: 40px;
+  width: 40px;
+}
+
+.overlay::after{
+  border-radius: 0 25px 0 0;
+}
+
+.card-image{
+  position: relative;
+  height: 260px;
+  width: 188px;
+  margin: 0 auto;
+  border-radius: 5px;
+}
+
+.card-image .card-img{
+  height: 100%;
+  width: 100%;
+  transition: all 0.5s ease 0s;
+}
+
+.card-image a p {
+  color: rgb(64, 159, 255);
+  text-align: center;
+  font-size: 15px;
+  padding: 5px;
+}
+
+.card-image a p:hover {
+  color: #3d66cc;
+}
+
+.name p {
+  text-align: center;
+  font-size: 15px;
+  color: #6e94d1;
+}
+
+.name p:hover {
+  text-align: center;
+  font-size: 15px;
+  color: #6e94d1;
+}
+
+.card-image .card-img:hover {
+  transform: scale(1.1);
+}
+
+.swiper-navBtn{
+  color: #3d66cc;
+  transition: color 0.3s ease;
+}
+
+.swiper-navBtn::before,
+.swiper-navBtn::after{
+  font-size: 35px;
+}
+.swiper-button-next{
+  right: 0;
+}
+.swiper-button-prev{
+  left: 0;
+}
+.swiper-pagination-bullet{
+  background-color: #6E93f7;
+  opacity: 1;
+}
+.swiper-pagination-bullet-active{
+  background-color: #9197a7;
+}
+
+@media screen and (max-width: 768px) {
+  .slide-content{
+    margin: 0 20px;
+  }
+  .swiper-navBtn{
+    display: none;
+  }
+}

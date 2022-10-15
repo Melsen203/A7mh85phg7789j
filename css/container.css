@@ -12,6 +12,14 @@
     color: white;
 }
 
+#yellow {
+    color: #e0e266;
+}
+
+#hr-yellow {
+    border: 1px solid #e0e266;
+}
+
 .container {
     max-width: 45%;
     background-color: #2c333e;
@@ -20,7 +28,6 @@
     flex-wrap: wrap;
     justify-content: center;
     justify-items: center;
-    opacity: 1.0;
     margin-top: 20px;
 }
 
@@ -46,7 +53,7 @@
 }
 
 .info h3 {
-    font-size: 15px;
+    font-size: 16px;
     color: #6e94d1;
 }
 
@@ -64,7 +71,7 @@ span {
     font-size: 14px;
 }
 
-span:hover {
+.container span:hover {
     color: #6e94d1;
     transition: all 0.2s ease 0s;
 }
@@ -104,7 +111,7 @@ span:hover {
     background-color: rgb(148, 48, 48);
 }
 
-.container img {
+.container .item img {
     width: 150px;
     margin: 5px;
     border-radius: 10px;
@@ -172,4 +179,8 @@ hr {
     user-select: none;
     -moz-user-select: none;
     -webkit-user-select: none;
+}
+
+.info .attesa {
+    color: orange;
 }

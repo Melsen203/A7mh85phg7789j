@@ -14,11 +14,11 @@ body {
 
 .notice-box {
     max-width: 100%;
-    background: rgb(0,95,255);
-    background: linear-gradient(90deg, rgba(0,95,255,1) 0%, rgba(48,132,190,1) 45%, rgba(30,164,190,1) 100%);
+    background: #2e7eff;
     display: flex;
-    padding: 15px;
+    padding: 0px;
     justify-content: center;
+    height: 3px;
 }
 
 .container .material-symbols-outlined {
@@ -37,27 +37,6 @@ main {
     flex-wrap: wrap;
     justify-content: center;
 
-}
-
-.notice {
-    width: 40%;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    text-align: center;
-}
-
-.notice h3 {
-    display: flex;
-    justify-content: center;
-    color: white;
-}
-
-
-.notice a {
-    display: flex;
-    justify-content: center;
-    align-items: center;
 }
 
 @media only screen and (max-width: 1300px) {
@@ -186,6 +165,23 @@ main {
 
 .footer .fa-brands:hover {
     color: rgb(80, 121, 209);
+}
+
+.border {
+    width: 65%;
+    margin: 0 auto;
+    margin-top: 20px;
+    margin-bottom: 20px;
+}
+
+.border hr {
+    border: 1px solid #2e7eff;
+}
+
+@media only screen and (max-width: 1300px) {
+    .border  {
+        width: 95%;
+    }
 }
 
 
